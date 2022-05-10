@@ -7,7 +7,10 @@ import SwitchWrapper from './components/SwitchWrapper';
 export default function App() {
   return (
     <View style={styles.container}>
-      <StatusBar style="auto" />
+      <StatusBar 
+        style="auto"
+        backgroundColor="#FFF"
+      />
       <Navigation></Navigation>
       <SensorWrapper></SensorWrapper>
       <SwitchWrapper></SwitchWrapper>
